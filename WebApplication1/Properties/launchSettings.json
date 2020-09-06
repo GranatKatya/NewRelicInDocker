@@ -1,0 +1,46 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:56172",
+      "sslPort": 44355
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "WebApplication1": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "CORECLR_NEWRELIC_HOME": "C:\\Logger Component\\classlib\\Logger\\LoggerComponent\\LoggerComponent\\bin\\Debug\\netcoreapp3.1\\newrelic",
+        "NEW_RELIC_LICENSE_KEY": "b6eb7ec56466c3443982f6aee468460205c697d9",
+        "CORECLR_ENABLE_PROFILING": "1",
+        "CORECLR_PROFILER": "{36032161-FFC0-4B61-B559-F6C5D41BAE5A}",
+        "CORECLR_PROFILER_PATH": "C:\\Logger Component\\classlib\\Logger\\LoggerComponent\\LoggerComponent\\bin\\Debug\\netcoreapp3.1\\newrelic\\NewRelic.Profiler.dll",
+        "NEW_RELIC_APP_NAME": "MyLoggerComponent",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+
+    //"WebApplication1": {
+    //  "commandName": "Project",
+    //  "launchBrowser": true,
+    //  "launchUrl": "weatherforecast",
+    //  "applicationUrl": "https://localhost:5001;http://localhost:5000",
+    //  "environmentVariables": {
+    //    "ASPNETCORE_ENVIRONMENT": "Development"
+    //  }
+   // }
+  }
+}

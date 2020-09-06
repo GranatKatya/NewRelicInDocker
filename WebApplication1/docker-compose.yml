@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    image: "webapplication1:latest"
+    environment:
+      NEW_RELIC_LICENSE_KEY: eu01xx317b2dc32ea67fb543dd6a02b5a9bbNRAL
+      NEW_RELIC_APP_NAME: webapplication1-docker
+      CORECLR_ENABLE_PROFILING: 1
+    #  CORECLR_NEWRELIC_HOME: C:\app/newrelic/newrelic_config
+  #  volumes: 
+   # - type: bind
+   #   source: ./newrelic_config
+   #   target: c:\app\newrelic\newrelic_config

@@ -1,0 +1,38 @@
+[Info ] 2020-09-05 14:29:06 Logger initialized.
+[Trace] 2020-09-05 14:29:06 New Relic .NET CoreCLR Agent
+[Info ] 2020-09-05 14:29:06 Initializing ThreadProfiler
+[Info ] 2020-09-05 14:29:06 ICorProfilerInfo10 available
+[Info ] 2020-09-05 14:29:06 Found newrelic.config at: C:\Logger Component\asp\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\newrelic\newrelic.config
+[Info ] 2020-09-05 14:29:06 <-- New logging level set: Debug
+[Debug] 2020-09-05 14:29:06 Searching for New Relic Agent DLL at: C:\ProgramData\New Relic\.NET Agent\NewRelic.Agent.Core.dll
+[Debug] 2020-09-05 14:29:06 Searching for New Relic Agent DLL at: C:\ProgramData\New Relic\.NET Agent\netcore\NewRelic.Agent.Core.dll
+[Debug] 2020-09-05 14:29:06 Searching for New Relic Agent DLL at: C:\Logger Component\asp\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\newrelic\NewRelic.Agent.Core.dll
+[Info ] 2020-09-05 14:29:06 New Relic .NET CoreCLR Agent v8.31.0.0
+[Info ] 2020-09-05 14:29:06 Loading instrumentation from C:\Logger Component\asp\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\newrelic\extensions
+[Debug] 2020-09-05 14:29:06 Parsing instrumentation file 'C:\Logger Component\asp\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml
+[Debug] 2020-09-05 14:29:06 Parsing instrumentation file 'C:\Logger Component\asp\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml
+[Debug] 2020-09-05 14:29:06 Parsing instrumentation file 'C:\Logger Component\asp\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\newrelic\extensions\NewRelic.Providers.Wrapper.Misc.Instrumentation.xml
+[Debug] 2020-09-05 14:29:06 Parsing instrumentation file 'C:\Logger Component\asp\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml
+[Debug] 2020-09-05 14:29:06 Parsing instrumentation file 'C:\Logger Component\asp\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\newrelic\extensions\NewRelic.Providers.Wrapper.Sql.Instrumentation.xml
+[Debug] 2020-09-05 14:29:06 Parsing instrumentation file 'C:\Logger Component\asp\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml
+[Info ] 2020-09-05 14:29:06 Command line: "C:\Logger Component\asp\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.exe"
+[Debug] 2020-09-05 14:29:06 Calling SetEventMask2().
+[Info ] 2020-09-05 14:29:06 Profiler initialized
+[Debug] 2020-09-05 14:29:06 Found 1 method(s) matching BuildCommonServices
+[Debug] 2020-09-05 14:29:06 Found 1 method(s) matching ConfigureWebHost
+[Debug] 2020-09-05 14:29:06 ReJit success
+[Debug] 2020-09-05 14:29:06 Request reJIT: [140712156490600] (Module: C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7\Microsoft.AspNetCore.Hosting.dll, AppDomain: clrhost)[Microsoft.AspNetCore.Hosting]Microsoft.Extensions.Hosting.GenericHostWebHostBuilderExtensions.ConfigureWebHost(Microsoft.Extensions.Hosting.IHostBuilder,System.Action`1[Microsoft.AspNetCore.Hosting.IWebHostBuilder])
+[Info ] 2020-09-05 14:29:06 Instrumenting method: (Module: C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7\Microsoft.AspNetCore.Hosting.dll, AppDomain: clrhost)[Microsoft.AspNetCore.Hosting]Microsoft.Extensions.Hosting.GenericHostWebHostBuilderExtensions.ConfigureWebHost(Microsoft.Extensions.Hosting.IHostBuilder,System.Action`1[Microsoft.AspNetCore.Hosting.IWebHostBuilder])
+[Debug] 2020-09-05 14:29:09 Found 4 method(s) matching SendAsync
+[Debug] 2020-09-05 14:29:09 ReJit success
+[Debug] 2020-09-05 14:29:09 Request reJIT: [140712169921384] (Module: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7\System.Net.Http.dll, AppDomain: clrhost)[System.Net.Http]System.Net.Http.HttpClient.SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
+[Info ] 2020-09-05 14:29:09 Instrumenting method: (Module: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7\System.Net.Http.dll, AppDomain: clrhost)[System.Net.Http]System.Net.Http.HttpClient.SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)
+[Debug] 2020-09-05 14:29:09 Rewriting multi-return method
+[Info ] 2020-09-05 14:29:12 Unable to find Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker for rejit. HR:-2146234064
+[Debug] 2020-09-05 14:29:12 Found 1 method(s) matching InvokeActionMethodAsync
+[Debug] 2020-09-05 14:29:12 ReJit success
+[Debug] 2020-09-05 14:29:26 Request reJIT: [140712179178800] (Module: C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7\Microsoft.AspNetCore.Mvc.Core.dll, AppDomain: clrhost)[Microsoft.AspNetCore.Mvc.Core]Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+[Info ] 2020-09-05 14:29:26 Instrumenting method: (Module: C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7\Microsoft.AspNetCore.Mvc.Core.dll, AppDomain: clrhost)[Microsoft.AspNetCore.Mvc.Core]Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+[Debug] 2020-09-05 14:29:26 Rewriting multi-return method
+[Info ] 2020-09-05 14:34:01 Profiler shutting down
+[Info ] 2020-09-05 14:34:01 Profiler shutdown
